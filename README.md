@@ -1,12 +1,12 @@
-# fr-solar-installed-capacity
+# fr-turbines-installed-capacity
 
 ## Content
 
 ### density.tif
 
-Direct download : https://energyexplorer.s3.fr-par.scw.cloud/density.b103ec05f71c1682706f5e9b1e022ec5abce55480040b5a8ad75d506e7e06dd0.tif
+Direct download : https://energyexplorer.s3.fr-par.scw.cloud/density.2e03a95d4b2c2e7b698314a47353d8f6b2eb11e48c83a4a1385f5d491e88cf18.tif
 
-**Density of photovoltaic production capacity**
+**Density of wind power production capacity**
 
 ![preview](density-preview.png)
 
@@ -28,8 +28,8 @@ To easily retrieve all files at once, you can use the `./download.sh` utility fr
 
 ```
 git clone https://github.com/energyexplorer-datasets/common.git
-git clone https://github.com/energyexplorer-datasets/fr-solar-installed-capacity.git
-cd fr-solar-installed-capacity
+git clone https://github.com/energyexplorer-datasets/fr-turbines-installed-capacity.git
+cd fr-turbines-installed-capacity
 ../common/download.sh
 ```
 

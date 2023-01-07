@@ -32,7 +32,7 @@ with open('registre-national-installation-production-stockage-electricite-agrege
         departement = facility['codeDepartement']
         region = facility['codeRegion']
         
-        if channel != 'SOLAI':
+        if channel != 'EOLIE':
             continue
         
         if not power:
